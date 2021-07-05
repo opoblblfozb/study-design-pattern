@@ -1,0 +1,99 @@
+[0m2021.07.04 12:53:48 INFO  Started: Metals version 0.10.4 in workspace '/Users/k.nonaka/study-design-pattern' for client Visual Studio Code 1.57.1.[0m
+[0m2021.07.04 12:53:49 INFO  time: initialize in 1.84s[0m
+[0m2021.07.04 12:53:50 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.04 12:53:50 WARN  no build tool detected in workspace '/Users/k.nonaka/study-design-pattern'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.07.04 12:53:50 WARN  no build target for: /Users/k.nonaka/study-design-pattern/sample-scala/HelloWorld.scala[0m
+[0m2021.07.04 12:53:52 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.07.04 12:54:07 WARN  no build target for: /Users/k.nonaka/study-design-pattern/sample-scala/build.sbt[0m
+[0m2021.07.04 12:54:07 WARN  no build target for: /Users/k.nonaka/study-design-pattern/sample-scala/build.sbt[0m
+[0m2021.07.04 12:57:28 WARN  no build target for: /Users/k.nonaka/study-design-pattern/sample-scala/build.sbt[0m
+7月 04, 2021 12:57:53 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 33
+[0m2021.07.04 12:57:55 WARN  no build target for: /Users/k.nonaka/study-design-pattern/sample-scala/HelloWorld.scala[0m
+[0m2021.07.04 12:58:00 WARN  no build target for: /Users/k.nonaka/study-design-pattern/sample-scala/HelloWorld.scala[0m
+[0m2021.07.04 13:06:32 WARN  no build target for: /Users/k.nonaka/study-design-pattern/Adaptor/HelloWorld.scala[0m
+7月 04, 2021 1:18:19 午後 scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+情報: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+7月 04, 2021 1:18:19 午後 scala.meta.internal.pc.CompilerAccess handleError
+重大: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:158)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:960)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:808)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+[0m2021.07.04 13:18:49 WARN  no build target for: /Users/k.nonaka/study-design-pattern/Adaptor/build.sbt[0m
+7月 04, 2021 1:18:50 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 288
+7月 04, 2021 1:18:51 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 293
+7月 04, 2021 1:18:53 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 298
+7月 04, 2021 1:18:54 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 303
+7月 04, 2021 1:19:02 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 309
+7月 04, 2021 1:19:34 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 316
+7月 04, 2021 1:19:35 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 321
+[0m2021.07.04 13:19:38 WARN  no build target for: /Users/k.nonaka/study-design-pattern/Adaptor/HelloWorld.scala[0m
+7月 04, 2021 1:19:39 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 326
+7月 04, 2021 1:19:39 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 331
+7月 04, 2021 1:19:40 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 336
+7月 04, 2021 1:19:44 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 342
+7月 04, 2021 1:27:27 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 354
+7月 04, 2021 1:27:46 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 359
+[0m2021.07.04 13:38:22 ERROR text document: file:///Users/k.nonaka/study-design-pattern/Adaptor/HelloWorld.scala
+java.nio.file.NoSuchFileException: /Users/k.nonaka/study-design-pattern/Adaptor/HelloWorld.scala
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:77)
+	at java.util.HashMap.compute(HashMap.java:1228)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2692)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:76)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1501)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1499)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+7月 04, 2021 1:38:29 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 370
+[0m2021.07.05 09:25:44 INFO  shutting down Metals[0m
+[0m2021.07.05 13:30:39 INFO  Started: Metals version 0.10.4 in workspace '/Users/k.nonaka/study-design-pattern' for client Visual Studio Code 1.57.1.[0m
+[0m2021.07.05 13:30:41 INFO  time: initialize in 1.89s[0m
+[0m2021.07.05 13:30:41 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.05 13:30:41 INFO  skipping build import with status 'Requested'[0m
+7月 05, 2021 2:44:17 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTrace
+[0m2021.07.05 14:51:09 INFO  shutting down Metals[0m
