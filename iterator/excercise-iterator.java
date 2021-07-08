@@ -1,3 +1,5 @@
+package iterator;
+
 // 演習問題
 
 import java.util.ArrayList;
