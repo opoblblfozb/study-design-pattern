@@ -124,3 +124,12 @@ org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequ
 [0m2021.07.06 00:10:29 WARN  Build server is not auto-connectable.[0m
 [0m2021.07.06 00:10:29 INFO  skipping build import with status 'Requested'[0m
 [0m2021.07.06 00:11:01 INFO  shutting down Metals[0m
+[0m2021.07.08 20:30:31 INFO  Started: Metals version 0.10.4 in workspace '/Users/k.nonaka/work/study-design-pattern' for client Visual Studio Code 1.57.1.[0m
+[0m2021.07.08 20:30:33 INFO  time: initialize in 1.93s[0m
+[0m2021.07.08 20:30:33 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.08 20:30:33 INFO  skipping build import with status 'Requested'[0m
+[0m2021.07.08 20:37:12 INFO  shutting down Metals[0m
+[0m2021.07.08 20:37:33 INFO  Started: Metals version 0.10.4 in workspace '/Users/k.nonaka/work/study-design-pattern' for client Visual Studio Code 1.57.1.[0m
+[0m2021.07.08 20:37:35 INFO  time: initialize in 1.64s[0m
+[0m2021.07.08 20:37:35 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.08 20:37:35 INFO  skipping build import with status 'Requested'[0m
